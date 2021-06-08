@@ -12,7 +12,7 @@ import Geocoder from 'react-native-geocoding';
 
 import { regionFrom, getLatLonDiffInMeters } from './helpers';
 
-Geocoder.setApiKey('YOUR GOOGLE SERVER API KEY');
+Geocoder.setApiKey('AIzaSyCJzr6OHF9KHh2UyX3GrUCqYVvwyaLxIII');
 
 export default class grabDriver extends Component {
   state = {
@@ -39,9 +39,9 @@ export default class grabDriver extends Component {
 
   componentWillMount() {
 
-    this.pusher = new Pusher('YOUR PUSHER APP ID', {
-      authEndpoint: 'YOUR AUTH SERVER ENDPOINT',
-      cluster: 'YOUR PUSHER CLUSTER',
+    this.pusher = new Pusher('8189f01e538c04e42f87', {
+      authEndpoint: '/pusher/auth',
+      cluster: 'ap1',
       encrypted: true
     });
 

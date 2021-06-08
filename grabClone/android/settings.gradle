@@ -1,0 +1,7 @@
+rootProject.name = 'grabClone'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':react-native-google-place-picker'
+project(':react-native-google-place-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-google-place-picker/android')
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/lib/android')
+include ':app'

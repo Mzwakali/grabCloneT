@@ -9,7 +9,7 @@ import Spinner from 'react-native-loading-spinner-overlay';
 
 import { regionFrom, getLatLonDiffInMeters } from './helpers';
 
-Geocoder.setApiKey('YOUR GOOGLE SERVER API KEY');
+Geocoder.setApiKey('AIzaSyCJzr6OHF9KHh2UyX3GrUCqYVvwyaLxIII');
 
 export default class App extends Component {
 
